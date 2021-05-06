@@ -18,6 +18,6 @@ Testing of actual charge trigger/start/stop yet to be completed.
 ## DO NOT use a standard 1.5V alkaline battery in this board. The size is similar to a 14500, but it will end in tears.
 
 # Note to Other (ie not MicroVAX II) users:
-## This board includes a couple of features to make it work as a generic NiCad battery replacement.
+## This board includes a couple of features to make it work as a generic NiCad battery replacement, on older workstations/PCs that used a NiCad battery to keep the time of store BIOS setup parameters).
 ## Typically (on a PC) use the 4-pin Molex connector to power the board, and wire the "battery" connector (marked "Battery Out") directly to where the old battery would have been connected on the motherboard.
 ## This set-up has not been tested, but there is no reason it should not work.

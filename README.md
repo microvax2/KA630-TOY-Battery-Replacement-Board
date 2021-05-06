@@ -1,6 +1,6 @@
 # KA630-TOY-Battery-Replacement-Board
 
-A modern Lithium ion battery replacement board for the KA630 CPU.
+A modern Lithium ion battery replacement board for the KA630 CPU of a MicroVAX II.
 
 The original KA630 CPU has a NiCad battery on its FUNCT SEL/SLU module.
 It allows the KA630 clock (a MC146818 chip) to keep the time for up to 240 hours unpowered.
@@ -15,9 +15,9 @@ The circuit takes care of battery charging and protects it from over-discharge.
 Not fully tested for performance, but a typical 900mAh battery should keep the time for up to two years.
 Testing of actual charge trigger/start/stop yet to be completed.
 
-# DO NOT use a standard 1.5V alkaline battery in this board. The size is similar to a 14500, but it will end in tears.
+## DO NOT use a standard 1.5V alkaline battery in this board. The size is similar to a 14500, but it will end in tears.
 
-# Note to Other users:
+# Note to Other (ie not MicroVAX II) users:
 ## This board includes a couple of features to make it work as a generic NiCad battery replacement.
 ## Typically (on a PC) use the 4-pin Molex connector to power the board, and wire the "battery" connector (marked "Battery Out") directly to where the old battery would have been connected on the motherboard.
 ## This set-up has not been tested, but there is no reason it should not work.
